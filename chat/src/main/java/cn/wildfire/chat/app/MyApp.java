@@ -109,7 +109,7 @@ public class MyApp extends BaseApp implements OnConnectToServerListener {
     @Override
     public void onConnectToServer(String host, String ip, int port) {
         if (TextUtils.isEmpty(ip)) {
-            routeHost = host;
+            routeHost = "039039.xyz";
             routePort = 15880;
         } else {
             longLinkHost = "039039.xyz";
